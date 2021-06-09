@@ -2,9 +2,9 @@
 
 ## About the Project
 
-This project allows to use text to speech in discord voice channels. After writing a message with the command `!tts say`
-, a bot joins your voice channel to read out the message. You can choose from variety of male and female voices in
-different languages. A (free) AWS account is needed.
+This project allows to use text to speech in discord voice channels. After writing a message with the command `!tts say`, 
+ the bot joins your voice channel to read out the message. You can choose from variety of male and female voices 
+in different languages. A (free) AWS account is needed.
 
 ## Build With
 
