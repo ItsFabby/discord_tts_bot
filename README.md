@@ -2,9 +2,9 @@
 
 ## About the Project
 
-This project allows to use text to speech in discord voice channels. After writing a message with the command `!tts say`, 
- a bot joins your voice channel to read out the message. You can choose from variety of male and female voices 
-in different languages. A (free) AWS account is needed.
+This project allows to use text to speech in discord voice channels. After writing a message with the command `!tts say`
+, a bot joins your voice channel to read out the message. You can choose from variety of male and female voices in
+different languages. A (free) AWS account is needed.
 
 ## Build With
 
@@ -52,6 +52,11 @@ Amazon Polly allows 5 million characters per month for 12 months for free.
 
 
 - Use `!tts leave` to kick the bot from the voice channel.
+
+## Known Issues
+
+Requesting a new tts while the previous one is still getting read out, causes the old message to stop without reading out
+the new one.
 
 ## License
 
