@@ -53,6 +53,11 @@ Amazon Polly allows 5 million characters per month for 12 months for free.
 
 - Use `!tts leave` to kick the bot from the voice channel.
 
+## Known Issues
+
+Requesting a new tts while the previous one is still getting read out, causes the old message to stop without reading out
+the new one.
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
