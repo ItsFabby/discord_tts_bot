@@ -3,11 +3,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-TOKEN = os.environ.get('TEST_TOKEN')
+TOKEN = os.environ.get('TOKEN')
 
 AWS_ACCESS_KEY_ID = os.environ.get('POLLY_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('POLLY_SECRET_ACCESS_KEY')
-AWS_REGION_NAME = 'eu-central-1'
+AWS_REGION_NAME = os.environ.get('AWS_REGION')
 
 """Keywords"""
 TTS_SAY = '!tts say'
@@ -15,7 +15,7 @@ TTS_LEAVE = '!tts leave'
 TTS_SAY_VOICE = '!tts say-'
 TTS_VOICES = '!tts voices'
 
-DEFAULT_VOICE = 'Hans'
+DEFAULT_VOICE = 'Matthew'
 CHARACTER_LIMIT = 2000
 
 VOICES = {
@@ -24,9 +24,9 @@ VOICES = {
     'en3': 'Matthew',
     'en4': 'Joey',
 
-    'ger1': 'Marlene',
-    'ger2': 'Vicki',
-    'ger3': 'Hans',
+    'ge1': 'Marlene',
+    'ge2': 'Vicki',
+    'ge3': 'Hans',
 
     'fr1': 'Celine',
     'fr2': 'Mathieu',
